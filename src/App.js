@@ -6,6 +6,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
+import ExerciseDetail from "./pages/ExerciseDetail";
 
 function App() {
   return (
