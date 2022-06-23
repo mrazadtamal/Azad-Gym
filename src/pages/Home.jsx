@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import { Box } from "@mui/material";
+import HeroBanner from "../components/HeroBanner";
+import SearchExercises from "../components/SearchExercises";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <Box>
+      <HeroBanner />
+      <SearchExercises />
+    </Box>
   );
 };
 
