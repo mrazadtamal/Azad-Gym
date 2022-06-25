@@ -4,7 +4,7 @@ import { Box, Stack, Typography, Button } from "@mui/material";
 const HeroBanner = () => {
   return (
     <Box
-      sx={{ mt: { lg: "212px", xs: "70px" }, ml: { sm: "50px" } }}
+      sx={{ mt: { lg: "150px", xs: "70px" }, ml: { sm: "50px" } }}
       position="relative"
       p="20px"
     >
@@ -24,6 +24,11 @@ const HeroBanner = () => {
       <Button href="#exercises" variant="contained">
         Learn More
       </Button>
+      <img
+        className="hero-banner-img"
+        src="https://res.cloudinary.com/abidazad/image/upload/v1656177254/pexels-victor-freitas-841130_1_fa9j0v.jpg"
+        alt=""
+      />
     </Box>
   );
 };
