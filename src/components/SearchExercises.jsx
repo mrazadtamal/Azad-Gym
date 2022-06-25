@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { Box, Stack, Typography, Button } from "@mui/material";
+import { Box, Stack, Typography, Button, TextField } from "@mui/material";
 
 const SearchExercises = () => {
-  return <div>SearchExercises</div>;
+  return (
+    <Stack alignItems="center" mt="37px" justifyContent="center" p="20px">
+      <Typography>azad</Typography>
+    </Stack>
+  );
 };
 
 export default SearchExercises;
