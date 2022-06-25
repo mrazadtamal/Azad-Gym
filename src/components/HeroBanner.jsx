@@ -19,7 +19,7 @@ const HeroBanner = () => {
         Azad GYM Azad <br /> GYM Azad GYM
       </Typography>
       <Typography lineHeight="35px" mb={3} fontSize="22px">
-        Azad GYM
+        best gym in the world
       </Typography>
       <Button href="#exercises" variant="contained">
         Learn More
