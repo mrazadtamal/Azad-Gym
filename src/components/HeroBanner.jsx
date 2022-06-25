@@ -18,10 +18,12 @@ const HeroBanner = () => {
       >
         Azad GYM Azad <br /> GYM Azad GYM
       </Typography>
-      <Typography lineHeight="35px" fontSize="22px">
+      <Typography lineHeight="35px" mb={3} fontSize="22px">
         Azad GYM
       </Typography>
-      <Button>Learn More</Button>
+      <Button href="#exercises" variant="contained">
+        Learn More
+      </Button>
     </Box>
   );
 };
